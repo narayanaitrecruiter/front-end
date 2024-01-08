@@ -1,0 +1,44 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: product-service
+          uri: lb://product-service
+          predicates:
+            - Path=/products/**
+        - id: order-service
+          uri: lb://order-service
+          predicates:
+            - Path=/orders/**
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/api/auth/**
+        - id: analytics-service
+          uri: lb://analytics-service
+          predicates:
+            - Path=/recommended/**
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:3000"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+
+#
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka/
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+
+

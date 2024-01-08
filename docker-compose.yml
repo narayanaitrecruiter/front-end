@@ -1,0 +1,176 @@
+version: '3'
+services:
+  eureka-server:
+    build:
+      context: ./service/discovery-server
+      dockerfile: .dockerfile
+    ports:
+      - "8761:8761"
+    networks:
+      - ecommerce-network
+  api-gateway:
+    build:
+      context: ./service/api-gateway
+      dockerfile: .dockerfile
+    ports:
+      - "3001:8080"
+    depends_on:
+      - eureka-server
+    networks:
+      - ecommerce-network
+  order-db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'order-db'
+      MYSQL_ROOT_PASSWORD: '12345'
+    ports:
+      # <Port exposed> : <MySQL Port running inside container>
+      - '7001:3306'
+    expose:
+      # Opens port 3306 on the container
+      - '3306'
+      # Where our data will be persisted
+    volumes:
+      - ./database/order:/var/lib/mysql
+    networks:
+      - ecommerce-network
+
+  order-service:
+    build:
+      context: ./service/Order
+      dockerfile: .dockerfile
+    depends_on:
+      - order-db
+      - eureka-server
+    restart: on-failure
+    ports:
+      - "9001:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://order-db:3306/order-db
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 12345
+    networks:
+      - ecommerce-network
+  users-db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: ecommerce-user
+      POSTGRES_USER: ecommerce-user
+      POSTGRES_PASSWORD: 12345
+    ports:
+      - "7002:5432"
+    volumes:
+      - ./database/user-db:/var/lib/postgresql
+    networks:
+      - ecommerce-network
+
+  users-service:
+    build:
+      context: ./service/user-service
+      dockerfile: .dockerfile
+    depends_on:
+      - users-db
+      - eureka-server
+    restart: on-failure
+    ports:
+      - "9002:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://users-db:5432/ecommerce-user
+      SPRING_DATASOURCE_USERNAME: ecommerce-user
+      SPRING_DATASOURCE_PASSWORD: 12345
+    networks:
+      - ecommerce-network
+  #for analytics service
+  analytics-service:
+    build:
+      context: ./service/Analytics
+      dockerfile: .dockerfile
+    depends_on:
+      - eureka-server
+    restart: on-failure
+    ports:
+      - "9003:8080"
+#    environment:
+#      SPRING_DATASOURCE_URL: jdbc:postgresql://users-db:5432/ecommerce-user
+#      SPRING_DATASOURCE_USERNAME: ecommerce-user
+#      SPRING_DATASOURCE_PASSWORD: 12345
+    networks:
+      - ecommerce-network
+#payment
+  payment-db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'payment-db'
+      # So you don't have to use root, but you can if you like
+      #MYSQL_USER: 'payment-user'
+      # You can use whatever password you like
+      #MYSQL_PASSWORD: '12345'
+      # Password for root access
+      MYSQL_ROOT_PASSWORD: '12345'
+    ports:
+      # <Port exposed> : <MySQL Port running inside container>
+      - '7004:3306'
+    expose:
+      # Opens port 3306 on the container
+      - '3306'
+      # Where our data will be persisted
+    volumes:
+      - ./database/payment:/var/lib/mysql
+    networks:
+      - ecommerce-network
+
+  payment-service:
+    build:
+      context: ./service/Payment
+      dockerfile: .dockerfile
+    depends_on:
+      - payment-db
+      - eureka-server
+    restart: on-failure
+    ports:
+      - "9004:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://payment-db:3306/payment-db
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 12345
+    networks:
+      - ecommerce-network
+#product
+  product-db:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'product-db'
+      MYSQL_ROOT_PASSWORD: '12345'
+    ports:
+      # <Port exposed> : <MySQL Port running inside container>
+      - '7008:3306'
+    expose:
+      # Opens port 3306 on the container
+      - '3306'
+      # Where our data will be persisted
+    volumes:
+      - ./database/product-db:/var/lib/mysql
+    networks:
+      - ecommerce-network
+  product-service:
+    build:
+      context: ./service/ProductService
+      dockerfile: .dockerfile
+    depends_on:
+      - product-db
+      - eureka-server
+    restart: on-failure
+    ports:
+      - "9008:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://product-db:3306/product-db
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 12345
+    networks:
+      - ecommerce-network
+networks:
+  ecommerce-network:
+    driver: bridge

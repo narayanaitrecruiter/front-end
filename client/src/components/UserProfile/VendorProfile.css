@@ -1,0 +1,127 @@
+.vendor-profile-container {
+    background-image: linear-gradient(to right, #e3f2fc, #e0f0f7);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 0;
+
+}
+  
+  .vendor-profile-container h2 {
+    font-family: Inter, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    margin: 4rem;
+  }
+  
+  .unedited-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 40rem;
+    gap: 10px;
+  }
+  
+  .unedited-info p {
+    font-family: Poppins, sans-serif;
+    font-size: 2rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .edit-info {
+    background-image: linear-gradient(to right, #f6fafe, #f0f5f9);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+  }
+  
+  .edit-info label,
+  .edit-info input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .edit-info input {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    margin: 2rem;
+  }
+  
+  button:hover {
+    background-color: #388E3C;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cancel {
+    background-color: #F44336;
+    border: 1px solid #F44336;
+    color: #fff;
+  }
+  
+  .cancel:hover {
+    background-color: #DC352F;
+    border-color: #DC352F;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .vendor-profile-container div {
+      flex-wrap: wrap;
+    }
+  
+    .vendor-profile-container div input {
+      margin-bottom: 10px;
+    }
+  }
+  
+  .vendor-profile-container a:hover {
+    text-decoration: none;
+    color: #4CAF50;
+  }
+  .header{
+    font-weight:700;
+    text-transform: uppercase;
+  }
+  p{
+    margin: 2rem 2rem 2rem 0;
+    font-size: 1.2rem;
+  }  

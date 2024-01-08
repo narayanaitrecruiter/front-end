@@ -1,0 +1,67 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+}
+
+.addnew-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.addnew {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.accounts-tab {
+  margin-left: 20px; 
+}
+
+.accounts-tab select {
+  background-color: #444;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.accounts-tab option {
+  background-color: #555;
+  color: white;
+}
+
+.accounts-tab button:hover,
+.accounts-tab select:hover {
+  background-color: #444;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  .accounts-tab button {
+    font-size: 14px;
+  }
+}
+
+.addnew {
+  cursor: pointer;
+}
