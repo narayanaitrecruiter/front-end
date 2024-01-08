@@ -9,6 +9,7 @@ COPY build.gradle settings.gradle ./
 COPY gradle ./gradle
 COPY gradlew ./gradlew
 
+RUN chmod 777 ./gradlew
 # Download and cache dependencies
 RUN ./gradlew --no-daemon dependencies
 

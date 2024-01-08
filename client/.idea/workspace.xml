@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a524efc9-3dfb-44d3-8b52-1de6cb80e0ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/ClientNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/ClientNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Orders/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Orders/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Orders/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Orders/Checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/AddItemForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/AddItemForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/ManageProductCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/ManageProductCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/ManageProductEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/ManageProductEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/ManageProductGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/ManageProductGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/ProductCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/ProductCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/ProductDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products/ProductGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/ProductGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.MD" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/Order/src/main/java/Order/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service/Order/src/main/java/Order/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/Payment/src/main/java/Payment/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service/Payment/src/main/java/Payment/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/ProductService/src/main/java/com/productService/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../service/ProductService/src/main/java/com/productService/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../service/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/.dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/src/main/java/com/ecommerce/orderservice/OrderServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/src/main/java/com/ecommerce/orderservice/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service/order-service/src/test/java/com/ecommerce/orderservice/OrderServiceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Zf1LtYDqZJYbeAGgFP2LUmJOiD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/ecommerce-microservice/client&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a524efc9-3dfb-44d3-8b52-1de6cb80e0ad" name="Changes" comment="" />
+      <created>1702798266585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702798266585</updated>
+      <workItem from="1702798267757" duration="7913000" />
+      <workItem from="1702908582327" duration="3410000" />
+      <workItem from="1702929169084" duration="2062000" />
+      <workItem from="1702954915359" duration="9544000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

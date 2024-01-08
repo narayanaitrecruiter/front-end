@@ -1,0 +1,9 @@
+com\productService\repository\ProductRepository.class
+com\productService\ProductServiceApplication.class
+com\productService\service\ProductServiceImpl.class
+com\productService\controller\ProductController.class
+com\productService\model\Category.class
+com\productService\model\ProductDTO.class
+com\productService\model\ImageUrl.class
+com\productService\model\Image.class
+com\productService\service\ProductService.class

@@ -1,0 +1,9 @@
+com\ecommerce\Model\Vendor.class
+com\ecommerce\Model\SigninRequest.class
+com\ecommerce\Repository\VendorRepository.class
+com\ecommerce\EcommerceApplication.class
+com\ecommerce\Model\UpdateInfoRequest.class
+com\ecommerce\Authentication\AuthController.class
+com\ecommerce\Repository\ClientRepository.class
+com\ecommerce\Model\Client.class
+com\ecommerce\Services\AuthService.class

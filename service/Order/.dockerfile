@@ -3,6 +3,7 @@
 FROM openjdk:17-jdk-slim AS build
 WORKDIR /app
 COPY . .
+RUN chmod 777 ./mvnw
 RUN ./mvnw clean install
 
 # Use AdoptOpenJDK as the base image for the final image

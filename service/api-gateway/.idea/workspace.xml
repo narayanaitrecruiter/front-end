@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c96e740-cc51-46bf-b304-82655dcd5f5d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/Navigation/ClientNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/Navigation/ClientNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/Orders/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/Orders/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/Orders/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/Orders/Checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/Products/AddItemForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/Products/AddItemForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/Products/ManageProductCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/Products/ManageProductCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/Products/ManageProductEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/Products/ManageProductEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/Products/ManageProductGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/Products/ManageProductGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/Products/ProductCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/Products/ProductCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/Products/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/Products/ProductDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/src/components/Products/ProductGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/src/components/Products/ProductGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../readme.MD" beforeDir="false" afterPath="$PROJECT_DIR$/../../readme.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Order/src/main/java/Order/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Order/src/main/java/Order/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payment/src/main/java/Payment/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Payment/src/main/java/Payment/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProductService/src/main/java/com/productService/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProductService/src/main/java/com/productService/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/.dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/src/main/java/com/ecommerce/orderservice/OrderServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/src/main/java/com/ecommerce/orderservice/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order-service/src/test/java/com/ecommerce/orderservice/OrderServiceApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api-gateway" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZfYUyMFJgHhPK2WD2719MYxube" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/ecommerce-microservice/service/Order",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "1bb6a956791250e8294464bba4af2a14",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ecommerce-microservice\service\api-gateway" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c96e740-cc51-46bf-b304-82655dcd5f5d" name="Changes" comment="" />
+      <created>1702814619421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702814619421</updated>
+      <workItem from="1702814620692" duration="4622000" />
+      <workItem from="1702823775895" duration="4446000" />
+      <workItem from="1702909220024" duration="1968000" />
+      <workItem from="1702929392104" duration="832000" />
+      <workItem from="1702954670085" duration="36000" />
+      <workItem from="1702955505950" duration="2009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
