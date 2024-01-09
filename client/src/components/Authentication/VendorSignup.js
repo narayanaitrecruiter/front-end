@@ -154,7 +154,7 @@ const VendorSignup = ({ onSignup, onToggleSignin, }) => {
               <input type="password" name="confirmPassword" value={formData.confirmPassword} onChange={handleChange} required />
               {formData.password !== formData.confirmPassword && <span>Passwords do not match</span>}
             </label>
-            <button type="submit">Sign Up</button>
+            <button type="submit" className="signup" onClick={handleSubmit}>Sign Up</button>
           </form>
         </div>
       </div>
