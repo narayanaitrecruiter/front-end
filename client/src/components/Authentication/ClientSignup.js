@@ -99,7 +99,7 @@ const ClientSignup = ({ onSignup, onToggleSignin, }) => {
               Confirm Password:
               <input type="password" name="confirmPassword" value={formData.confirmPassword} onChange={handleChange} required />
             </label>
-            <button type="submit">Sign Up</button>
+            <button type="submit" className="signup" onClick={handleSubmit}>Sign Up</button>
           </form>
         </div>
       </div>
